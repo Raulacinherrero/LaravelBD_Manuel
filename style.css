@@ -1,0 +1,51 @@
+/*////// GENERALES //////*/
+body {
+    background-color: bisque;
+}
+.title {
+    font-size: large;
+}
+.error {
+    color: red;
+}
+.button {
+    border: none;
+    color: black;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.warning {
+    background-color: #f44336;
+    color: white;
+}
+.action {
+    background-color: #008CBA;
+    color: white;
+}
+.warning:hover {
+    background-color: #ff756b;
+}
+.action:hover {
+    background-color: #39a0b7;
+}
+
+/*////// sitio.php //////*/
+.header *{
+    display: inline-block;
+}
+table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+}
+th {
+    background-color: cadetblue;
+}
+td {
+    background-color: whitesmoke;
+}
